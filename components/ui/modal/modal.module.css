@@ -1,0 +1,38 @@
+/* MODAL */
+.fitScreen4 {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+}
+
+.modalFloat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  opacity: 100%;
+}
+
+.modal2 {
+  display: none;
+}
+
+/* MODAL END */

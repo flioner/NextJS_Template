@@ -1,0 +1,66 @@
+.navMainContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: max(min(8vw, 80px), 50px);
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px -10px #e8e8e8;
+  font-size: var(--S);
+  z-index: 99 !important;
+}
+
+.navContainer {
+  display: flex;
+  width: 100%;
+  height: max(min(8vw, 80px), 50px);
+  background-color: #fff;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px -10px #e8e8e8;
+  font-size: var(--S);
+  z-index: 99 !important;
+}
+.combo {
+  display: flex;
+  align-items: center;
+}
+
+.mainTitle {
+  font-weight: 600;
+}
+
+.contacto {
+  color: var(--darkgrey);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contacto:hover {
+  color: var(--darkestgrey);
+  transition: 0.3s;
+}
+
+.icon {
+  height: max(min(2vw, 42px), 25px);
+  margin-right: max(min(2vw, 15px), 5px);
+}
+
+.footerSpacer {
+  height: max(min(10vw, 180px), 100px);
+}
+
+.footer {
+  box-shadow: 0 -10px 10px -10px #e8e8e8;
+  position: absolute;
+  width: 100%;
+  bottom: -0px;
+  height: max(min(8vw, 80px), 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--mediumgrey);
+  font-size: var(--S);
+}

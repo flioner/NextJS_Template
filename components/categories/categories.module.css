@@ -1,0 +1,32 @@
+.cont {
+  display: flex;
+  max-width: 1263px;
+  margin: 10px auto;
+  min-height: 100px;
+}
+.module {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: var(--darkergrey);
+  background-color: var(--lightergrey);
+  border-radius: max(min(1vw, 10px), 6px);
+  margin: 2.5%;
+  transition: 0.3s;
+}
+
+.module:hover {
+  color: var(--black);
+  background-color: var(--lightgrey);
+  transition: 0.3s;
+  cursor: pointer;
+}
+.text {
+  text-align: center;
+  width: 100%;
+  font-size: var(--M);
+}
+.img {
+  width: 60%;
+  margin: -11%;
+}

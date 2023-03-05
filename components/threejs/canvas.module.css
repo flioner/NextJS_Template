@@ -1,0 +1,68 @@
+.bg {
+  position: relative;
+  opacity: 100%;
+  transition: 1s;
+  z-index: 5;
+}
+
+.bg2 {
+  opacity: 0%;
+  transition: 1s;
+}
+
+@media (max-width: 700px) {
+  .bg3 {
+    position: fixed;
+    top: 0;
+    z-index: 0;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    animation: onLoad 1s;
+    animation-delay: 1s;
+    opacity: 0%; /* 0%  */
+  }
+}
+@media (min-width: 700px) {
+  .bg3 {
+    display: none; /* none  */
+  }
+}
+
+.bg4 {
+  display: none; /* none  */
+}
+
+.bg5 {
+  display: block;
+  position: absolute;
+  top: 0;
+  z-index: 98;
+  height: 100%;
+  width: 100%;
+  background-color: white; /*white  */
+  opacity: 100%; /* 100%  */
+}
+
+.onLoad {
+  animation: onLoad 1s;
+  animation-delay: 1s;
+}
+
+@keyframes example {
+  from {
+    margin-top: 100px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+@keyframes onLoad {
+  from {
+    font-strerch: normal;
+  }
+  to {
+    font-strerch: normal;
+  }
+}

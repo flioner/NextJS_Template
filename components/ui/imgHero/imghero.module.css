@@ -1,0 +1,15 @@
+.heroCont {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  background-color: var(--lightestgrey);
+}
+
+.small {
+  width: 30%;
+  background-color: var(--lightergrey);
+}
+.big {
+  width: 70%;
+}

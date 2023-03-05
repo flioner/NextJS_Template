@@ -1,0 +1,30 @@
+.collection {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.collectionCrop {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+.imgCont {
+  align-items: center;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+}
+.img {
+  max-width: 80%;
+  max-height: max(min(4vw, 80px), 35px);
+}
+
+.tinyImg {
+  max-width: 80%;
+  max-height: max(min(2.5vw, 35px), 15px);
+}

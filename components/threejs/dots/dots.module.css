@@ -1,0 +1,35 @@
+.tinyDots {
+  @media (max-width: 510px) {
+    object-fit: contain;
+    width: 100%;
+    height: max(min(30vw, 400px), 130px);
+  }
+  @media (min-width: 510px) {
+    display: none;
+  }
+}
+
+.dots {
+  @media (max-width: 500px) {
+    display: none;
+  }
+  @media (min-width: 510px) {
+    object-fit: contain;
+    width: 100%;
+    height: max(min(30vw, 400px), 130px);
+  }
+  @media (min-width: 1000px) {
+    display: none;
+  }
+}
+
+.bigDots {
+  @media (max-width: 1000px) {
+    display: none;
+  }
+  @media (min-width: 1000px) {
+    object-fit: contain;
+    width: 100%;
+    height: max(min(30vw, 500px), 130px);
+  }
+}
